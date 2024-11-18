@@ -7,3 +7,5 @@
 - Außerdem hab ich heute etwas über If-Else und Elif Strukturen gelernt
 - Dazu kommen Funktionen mit Parametern und Rückgabewerten
 - Außerdem hab ich verschiedene Arten von Operatoren kennengelernt
+- Ebenfalls hab ich While und For Schleifen gelernt und bearbeitet
+- Ich habe 2 Projekte zum Lernen gemacht die aufeinander aufbauen. Einen Extrem Simplen Taschenrechner und einen fortgeschrittenen Taschenrechner
