@@ -34,4 +34,4 @@ while running:
         y = float(input("Gib die zweite Zahl ein:\n"))
         print(div(x, y))
     else:
-        quit()
+        running = False
