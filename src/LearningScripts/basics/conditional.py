@@ -34,3 +34,49 @@ elif i == 1: # elif is das Schlüsselwort um nach einem if Block eine weitere Be
     print(i)
 else:
     print(i)
+
+"""
+OPERATOREN
+"""
+
+"""
+Arithmetische Operatoren:
+
+"+" = "Addition"
+"-" = "Substraktion"
+"*" = "Multiplikation"
+"/" = "Division"
+"%" = "Modulus"
+"**" = "Potenzierung"
+"""
+
+"""
+Zuweisungs Operatoren:
+
+"=" = "Normale Zuweisung"
+"+=" = "Variabel Wert um x erhöhen"
+"-=" = "Variabel um Wert x veringern"
+"*=" = "Variabel um Wert x multiplizieren"
+"/=" = "Variabel um Wert x dividieren"
+"%=" = "Modulus x von der Variabel erhalten"
+"**=" "Variabel um Wert x potenzieren"
+"""
+
+"""
+Vergleichungs Operatoren:
+
+"==" = "Gleich"
+"!=" = "Nich gleich"
+">" = "Größer als"
+"<" = "Kleiner als"
+">=" = "Größer gleich"
+"<=" =	"Kleiner gleich"
+"""
+
+"""
+Logische Operatoren:
+
+"and" = "Gibt True zurück wenn beide Statements True sind"
+"or" = "Gibt True zurück wenn eines der beiden Statements True ist"
+"not" = "Dreht die Ausgabe um. True = False, False = True"
+"""
