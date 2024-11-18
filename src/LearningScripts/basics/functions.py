@@ -16,3 +16,21 @@ def say_hello(name): # Diese Methode verwendet einen Parameter der in der Funkti
     print("Hello", name, "!") # So kann man in einer print() Funktion Variabeln mit Text mischen
 
 say_hello("Hans") # Funktionsaufruf mit Parameter
+
+"""
+RÜCKGABEWERTE
+"""
+def add(a, b):
+    return a + b # Return gibt einen Rückgabe Wert an.
+
+sum = add(2, 4) # Rückgabewerte können in einer Variabel gespeichert werden
+print(sum) # Diese können dann ausgegeben werden
+print(add(3, 6)) # Man kann die Funktion auch direkt in der print() Methode aufrufen
+
+def compare(a, b):
+    if a == b:
+        return True # Eine Funktion kann verschiedene Rückgabewerte geben
+    else:
+        return False
+    
+print(compare(3, 0))
