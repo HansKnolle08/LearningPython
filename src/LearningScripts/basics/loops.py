@@ -22,3 +22,19 @@ fruits = ["apple", "banana", "cherry"]
 for x in color: # Diese Schleife durchläuft die Liste color
   for y in fruits: # Diese Schleife durchläuft die Liste fruits
     print(x, y) # Jedes mal wenn die Äussere Schleife einen Durchlauf gemacht hat zählt innere Schleife
+
+"""
+WHILE-SCHLEIFEN
+"""
+index = 0
+while not index == 10: # While Schleifen führen Code solange aus wie eine Bedingung True ist
+    print(index)
+    index += 1 # Diese Schleife hat einen negierten Zähler. Das heisst solang index nicht gleich 10 ist wird gezählt
+
+"""
+Diese Schleife ist unendlich da sie zählt solange die Bedingung True ist
+Hier ist True eine Konstante deshalb läuft sie bis das Programm unterbochen wird
+
+while True:
+    print("Hi")
+"""
