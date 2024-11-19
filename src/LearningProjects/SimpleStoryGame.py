@@ -10,6 +10,9 @@ quit_game_variations: list = ["q", "Q", "quit", "Quit", "quit game", "Quit Game"
 choice: str = None
 debug_multiplier: int = 0.1
 
+def choice2(choice: str) -> None:
+    pass
+
 def choice1(choice: str) -> None:
     if choice == "1":
         print(f'{name} stirmt aus seinem Haus raus in den Wald')
@@ -60,7 +63,10 @@ def choice1(choice: str) -> None:
             sleep(1 * debug_multiplier)
             quit()
     elif choice == "3":
-        print(choice)
+        print(f'{name} näher sich langsam Siren Head und möchte ein Gespräch beginnen')
+        sleep(3 * debug_multiplier)
+        print(f'Siren Head beugt sich runter zu {name} und Siren Head macht sich bereit ihn zu töten')
+        sleep(3 * debug_multiplier)
     else:
         try:
             choice1(choice = str(input(f"Was soll {name} machen?:\n")))
