@@ -16,3 +16,4 @@
 - Ich habe große Fortschritte in dem Spiel gemacht. Eins vom 3 Enden ist schon fertig
 - Außerdem hab ich etwas über Error Handling und Type Annotation gelernt
 - Ich habe auch etwas neues über Funktionen gelernt. Und zwar Standardparameter
+- Ebenfalls hab ich ein komplett neues Thema angefangen und zwar Klassen
