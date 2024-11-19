@@ -34,3 +34,13 @@ def compare(a, b):
         return False
     
 print(compare(3, 0))
+
+"""
+STANDARD PARAMETER
+"""
+def say_bye(name = 'Hans'): # Man kann einem Parameter einen Standard Wert zuweisen
+    print("Bye Bye", name, "!")
+
+ # Funktionen mit Standard Parametern geben diesen Standard Parameter aus wenn in dem Funktionsaufruf kein anderer Wert für das Parameter festgelegt wurde
+say_bye() # -> Standardparameter für name wird verwendet
+say_bye("Hansisi") # -> Standardparameter für name wird mit dem Parameter in dem Aufruf ersetzt

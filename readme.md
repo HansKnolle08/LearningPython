@@ -13,3 +13,6 @@
 
 ##### Tag 2 (Dienstag 19.11.2024):
 - Ich habe mit meinem nächsten Lern Projekt weitergemacht: Das Story Game
+- Ich habe große Fortschritte in dem Spiel gemacht. Eins vom 3 Enden ist schon fertig
+- Außerdem hab ich etwas über Error Handling und Type Annotation gelernt
+- Ich habe auch etwas neues über Funktionen gelernt. Und zwar Standardparameter
