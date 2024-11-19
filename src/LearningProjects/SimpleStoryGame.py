@@ -8,15 +8,97 @@ name: str = str(input("Nenne mir deinen Namen:\n"))
 start_game_variations: list = ["s", "S", "start", "Start", "start game", "Start Game", "startgame"]
 quit_game_variations: list = ["q", "Q", "quit", "Quit", "quit game", "Quit Game", "quitgame"]
 choice: str = None
-debug_multiplier: int = 0.1
+debug_multiplier: int = 0.001
+
+def normal_ending(name: str) -> None:
+    print(f'{name} zog nach Deutschland und zog sich vollständig zurück.')
+    sleep(3 * debug_multiplier)
+    print(f'Er hatte genug Kapital und Geld um sich ein neues Leben aufzubauen...')
+    sleep(2 * debug_multiplier)
+    print(f'Ende. Du hast das Normale Ende erreicht')
 
 def choice2(choice: str) -> None:
     if choice == "1":
-        print("1")
+        print("Playground")
     elif choice == "2":
-        print("2")
+        print("Eis")
     elif choice == "3":
-        print("3")
+        print(f'{name} merkt das Siren Head wieder sauer wurde.')
+        sleep(3 * debug_multiplier)
+        print(f'Als Sirenhead versuchte anzugreifen wich {name} aus und floh.')
+        sleep(3 * debug_multiplier)
+        print(f'Er lief zu dem Platz wo er sein Auto abgestellt hatte und fuhr weg')
+        sleep(3 * debug_multiplier)
+        print(f'Doch plötzlich taucht Siren Head vor dir auf. Er stand auf der Straße.')
+        print(f'Was soll {name} jetzt machen?')
+        print("1. Ausweichen")
+        print("2. Rammen")
+        choice = str(input("Was möchtest du machen?:\n"))
+        if choice == "1":
+            print("1. Links")
+            print("2. Rechts")
+            choice = str(input(f'{name} macht eine scharfe Kurve nach:\n'))
+            if choice == "1":
+                print(f'{name} starb weil er nach links abbog und in den Graben fiel')
+                print("Game Over")
+                print("1. Neustart")
+                print("2. Beenden")
+                choice = str(input("Was möchtest du machen?:\n"))
+                if choice == "1":
+                    main()
+                elif choice == "2":
+                    print("Verlasse Spiel...")
+                    sleep(1 * debug_multiplier)
+                    quit()
+                else:
+                    print("Unbekannte Eingabe")
+                    print("Verlasse Spiel...")
+                    sleep(1 * debug_multiplier)
+                    quit()
+            elif choice == "2":
+                print(f'{name} macht eine scharfe Kurve nach Rechts auf die Gegenfahrbahn.')
+                sleep(3 * debug_multiplier)
+                print(f'Als er hinter Siren Head war gab er Vollgas und fuhr ganz weit weg.')
+                sleep(3 * debug_multiplier)
+                normal_ending(name)
+            else:
+                print(f'{name} konnte sich nicht entscheiden und starb weil Sirenhead schneller war')
+                print("Game Over")
+                print("1. Neustart")
+                print("2. Beenden")
+                choice = str(input("Was möchtest du machen?:\n"))
+                if choice == "1":
+                    main()
+                elif choice == "2":
+                    print("Verlasse Spiel...")
+                    sleep(1 * debug_multiplier)
+                    quit()
+                else:
+                    print("Unbekannte Eingabe")
+                    print("Verlasse Spiel...")
+                    sleep(1 * debug_multiplier)
+                    quit()
+        elif choice == "2":
+            print("Verlasse Spiel...")
+            sleep(1 * debug_multiplier)
+            quit()
+        else:
+            print(f'{name} konnte sich nicht entscheiden und starb weil Sirenhead schneller war')
+            print("Game Over")
+            print("1. Neustart")
+            print("2. Beenden")
+            choice = str(input("Was möchtest du machen?:\n"))
+            if choice == "1":
+                main()
+            elif choice == "2":
+                print("Verlasse Spiel...")
+                sleep(1 * debug_multiplier)
+                quit()
+            else:
+                print("Unbekannte Eingabe")
+                print("Verlasse Spiel...")
+                sleep(1 * debug_multiplier)
+                quit()
     else:
         print("Bitte wähle eine geltende Möglichkeit")
         try:
@@ -75,7 +157,7 @@ def choice1(choice: str) -> None:
             sleep(1 * debug_multiplier)
             quit()
     elif choice == "3":
-        print(f'{name} näher sich langsam Siren Head und möchte ein Gespräch beginnen')
+        print(f'{name} nähert sich langsam Siren Head und möchte ein Gespräch beginnen')
         sleep(3 * debug_multiplier)
         print(f'Siren Head beugt sich runter zu {name} und Siren Head macht sich bereit ihn zu töten')
         sleep(3 * debug_multiplier)
@@ -104,19 +186,19 @@ def choice1(choice: str) -> None:
             choice1(choice = str(input(f"Was soll {name} machen?:\n")))
 
 def game() -> None:
-    print(f'Es war ein schöner Tag und {name} machte einen Spaziergang durch den Wald')
+    print(f'\nEs war ein schöner Tag und {name} machte einen Spaziergang durch einen Wald irgendwo in England\n')
     sleep(4 * debug_multiplier)
-    print(f'Plötzlich hörte {name} eine Sirene!')
+    print(f'Plötzlich hörte {name} eine Sirene!\n')
     sleep(4 * debug_multiplier)
-    print(f'Es war Siren Head! {name} lief um sein leben. Weg von Siren Head in sein altes Haus')
+    print(f'Es war Siren Head! {name} lief um sein leben. Weg von Siren Head in sein altes Haus\n')
     sleep(5 * debug_multiplier)
-    print(f'Auf einmal hörte er vor seiner Haustür seinen Hund bellen.')
+    print(f'Auf einmal hörte er vor seiner Haustür seinen Hund bellen.\n')
     sleep(4 * debug_multiplier)
-    print(f'"Das konnte aber garnicht sein", dachte {name} sich. Sein Hund war schon lange verschwunden.')
+    print(f'"Das konnte aber garnicht sein", dachte {name} sich. Sein Hund war schon lange verschwunden.\n')
     sleep(5 * debug_multiplier)
-    print(f'Er öffnete die Tür und sah.... Siren Head *dun dun dunnnnnnn*')
+    print(f'Er öffnete die Tür und sah.... Siren Head *dun dun dunnnnnnn*\n')
     sleep(4 * debug_multiplier)
-    print(f'Siren Head machte die Geräusche mit ihrern Sirenen. {name} dachte sich wie nett das sei!')
+    print(f'Siren Head machte die Geräusche mit ihrern Sirenen. {name} dachte sich wie nett das sei!\n')
     sleep(5 * debug_multiplier)
     print(f'Was soll {name} jetzt machen?\n')
     print("1. Weglaufen")
@@ -130,7 +212,7 @@ def game() -> None:
 
 def main() -> None:
     sleep(1 * debug_multiplier)
-    print("### Start Game ###")
+    print("\n### Start Game ###")
     print("### Quit Game ###\n")
     menu_choice: str = str(input("Wähle aus was du machen möchtest:\n"))
     if menu_choice in start_game_variations:
