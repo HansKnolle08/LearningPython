@@ -11,5 +11,5 @@
 - Ich habe heute 3 Projekte zum Lernen gemacht die aufeinander aufbauen. Einen Extrem Simplen Taschenrechner und einen fortgeschrittenen Taschenrechner. Dann noch einen About me Generator
 - Ich habe das nächste Lern Projekt angefangen. Ein simples Story Game
 
-##### Tag 2 (Dienstag 19.11.2024)
+##### Tag 2 (Dienstag 19.11.2024):
 - Ich habe mit meinem nächsten Lern Projekt weitergemacht: Das Story Game
