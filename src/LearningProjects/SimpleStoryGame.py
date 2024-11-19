@@ -11,7 +11,19 @@ choice: str = None
 debug_multiplier: int = 0.1
 
 def choice2(choice: str) -> None:
-    pass
+    if choice == "1":
+        print("1")
+    elif choice == "2":
+        print("2")
+    elif choice == "3":
+        print("3")
+    else:
+        print("Bitte wähle eine geltende Möglichkeit")
+        try:
+            choice2(choice = str(input(f"Was soll {name} machen?:\n")))
+        except ValueError:
+            print("Bitte wähle eine geltende Eingabe")
+            choice2(choice = str(input(f"Was soll {name} machen?:\n")))
 
 def choice1(choice: str) -> None:
     if choice == "1":
@@ -67,6 +79,23 @@ def choice1(choice: str) -> None:
         sleep(3 * debug_multiplier)
         print(f'Siren Head beugt sich runter zu {name} und Siren Head macht sich bereit ihn zu töten')
         sleep(3 * debug_multiplier)
+        print(f'{name} sagte: "STOP, das du die Geräusche von meinem Hund für mich gemacht hast war wunderbar :)"')
+        sleep(4 * debug_multiplier)
+        print(f'Sirenhead ist für einen Moment still und beugt sich wieder zurück.')
+        sleep(4 * debug_multiplier)
+        print(f'Sirenhead gab laute von sich. {name} konnte sie nicht verstehen aber er benutze den Google Übersetzer und verstand es:')
+        sleep(4 * debug_multiplier)
+        print(f'Er sagt sowas wie: "Ja das habe ich extra für sich gemacht. Komm lass uns was unternehmen"')
+        sleep(4 * debug_multiplier)
+        print(f'Was soll {name} jetzt machen?')
+        print("1. Zum Spielplatz gehen")
+        print("2. Eis essen gehen")
+        print("3. Nichts tun")
+        try:
+            choice2(choice = str(input(f"Was soll {name} machen?:\n")))
+        except ValueError:
+            print("Bitte wähle eine geltende Eingabe")
+            choice2(choice = str(input(f"Was soll {name} machen?:\n")))
     else:
         try:
             choice1(choice = str(input(f"Was soll {name} machen?:\n")))
