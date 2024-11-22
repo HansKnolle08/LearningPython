@@ -16,6 +16,15 @@ def normal_ending(name: str) -> None:
     print(f'Er hatte genug Kapital und Geld um sich ein neues Leben aufzubauen...')
     sleep(2 * debug_multiplier)
     print(f'Ende. Du hast das Normale Ende erreicht')
+    main()
+
+def good_ending(name: str) -> None:
+    print(f'{name} und Siren Head starben sofort')
+    sleep(3 * debug_multiplier)
+    print(f'Nun war es vorbei. {name} hatte die Welt von Siren Head befreit')
+    sleep(3 * debug_multiplier)
+    print(f'Ende. Du hast das Gute Ende erreicht')
+    main()
 
 def choice2(choice: str) -> None:
     if choice == "1":
@@ -79,9 +88,12 @@ def choice2(choice: str) -> None:
                     sleep(1 * debug_multiplier)
                     quit()
         elif choice == "2":
-            print("Verlasse Spiel...")
-            sleep(1 * debug_multiplier)
-            quit()
+            print(F'{name} steuert auf mit Ramkurs auf ihn zu')
+            sleep(3 * debug_multiplier)
+            print("Er macht die Augen zu und akzeptiert sein Schicksal")
+            sleep(3 * debug_multiplier)
+            print("Als das Auto und Sirenhead mit 232 KM pro Stunde kolidieren explodiert das Auto in einem großem Feuerball")
+            good_ending(name)
         else:
             print(f'{name} konnte sich nicht entscheiden und starb weil Sirenhead schneller war')
             print("Game Over")
