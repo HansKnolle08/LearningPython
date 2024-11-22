@@ -17,3 +17,6 @@
 - Außerdem hab ich etwas über Error Handling und Type Annotation gelernt
 - Ich habe auch etwas neues über Funktionen gelernt. Und zwar Standardparameter
 - Ebenfalls hab ich ein komplett neues Thema angefangen und zwar Klassen
+
+##### Tag 3 (Donnerstag 21.11.2024)
+- Ich habe das Gute Ende zu meinem Spiel hinzugefügt
