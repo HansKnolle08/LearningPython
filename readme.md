@@ -20,3 +20,5 @@
 
 ##### Tag 3 (Donnerstag 21.11.2024)
 - Ich habe das Gute Ende zu meinem Spiel hinzugefügt
+
+### Ich habe ein paar Tage Pause gemacht

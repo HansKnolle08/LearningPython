@@ -28,7 +28,7 @@ def good_ending(name: str) -> None:
 
 def choice2(choice: str) -> None:
     if choice == "1":
-        print("Playground")
+        print("Playground") # <- Hier weitermachen
     elif choice == "2":
         print("Eis")
     elif choice == "3":
