@@ -22,3 +22,6 @@
 - Ich habe das Gute Ende zu meinem Spiel hinzugefügt
 
 ### Ich habe ein paar Tage Pause gemacht
+
+##### Tag 4 (Dienstag 26.11.2024)
+- Ich arbeite nun so sehr mit Git zusammen das ich auf verschiedenen Systemen arbeiten kann
